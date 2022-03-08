@@ -1,0 +1,16 @@
+.faq-image{
+    height: 43px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.target{
+    background-color: #ff6600;
+}
+
+.contact-phone {
+    background-color: #99d6ff;
+}
+.clock {
+    background-color: #ffcc00;
+}

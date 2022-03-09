@@ -1,0 +1,19 @@
+.header__logo a {
+    color: var(--highlight-logo-color);
+    font-style: italic;
+    text-decoration: none;
+    font-size: 17px;
+}
+.header__logo a:hover {
+    color: var(--title-color);
+}
+.header__social,
+.header__nav,
+.header__logo {
+    text-align: center;
+}
+
+.header__nav-item a {
+    text-decoration: none;
+    color: var(--title-color);
+}

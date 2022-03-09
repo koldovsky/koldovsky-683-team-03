@@ -6,12 +6,12 @@
 }
 
 :root {
-
     --background-color: #FFF6ED;
     --title-color: #040F73;
     --highlight-logo-color:#FF962E;
     --simple-text-color:#6A6E8F;
 
-
-
+    background: var(--background-color);
+    padding: 24px;
+    font-family: "Poppins", sans-serif;
 }

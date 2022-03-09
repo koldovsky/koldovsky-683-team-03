@@ -1,0 +1,59 @@
+@import url(https://fonts.google.com/specimen/Rubik?query=rubik);
+.animals__card {
+    background: white;
+    border-radius: 10px;
+    margin: 10px 15px;
+    padding: 29px 25px;
+}
+.animals__card-img_wrapper .animals__card-img {
+    position: absolute;
+    width: 26px;
+    top: calc(50% - 13px);
+    left: calc(50% - 13px); 
+}
+.animals__card-img_wrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.animals__card-img_wrapper-cat {
+    background-color: var(--icon-background-color-1);
+}
+.animals__card-img_wrapper-dog {
+    background-color: var(--highlight-logo-color);
+}
+.animals__card-img_wrapper-rabbit {
+    background-color: var(--icon-background-color-2);
+}
+.animals__card-img_wrapper-fish {
+    background-color: var( --icon-background-color-3);
+}
+.animals__card-img_wrapper-turtle {
+    background-color: var(--highlight-logo-color);
+}
+.animals__card-border {
+    display: block;
+    width: 20%;
+    height: 3px;
+    background-color: var(--highlight-logo-color);
+    margin: 15px 0;
+}
+.animals__card-title {
+    font-family: "Rubik", sans-serif;
+    font-size: 22px;
+    color: var(--title-color);
+}
+.animals__card-description {
+    margin-top: 20px;
+    color: var(--title-color);
+    font-size: 17px;
+}
+.animals__card-more {
+    font-size: 12px;
+    color: var(--button-more-color);
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 29px;
+    display: block;
+}

@@ -8,8 +8,12 @@
 :root {
     --background-color: #FFF6ED;
     --title-color: #040F73;
-    --highlight-logo-color:#FF962E;
+    --highlight-logo-color:#FF5B2E;
     --simple-text-color:#6A6E8F;
+    --button-more-color:#2d3579;
+    --icon-background-color-1:#90CCFF;
+    --icon-background-color-2:#FABF3E;
+    --icon-background-color-3:#5BD6E2;
 
     background: var(--background-color);
     padding: 24px;

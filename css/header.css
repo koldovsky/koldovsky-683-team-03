@@ -17,3 +17,7 @@
     text-decoration: none;
     color: var(--title-color);
 }
+.header__nav-item {
+    list-style-type: none;
+    margin: 10px 0;
+}

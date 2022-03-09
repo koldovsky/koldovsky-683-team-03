@@ -5,12 +5,12 @@
 }
 
 .target{
-    background-color: #ff6600;
+    background-color: var(--highlight-logo-color);
 }
 
 .contact-phone {
-    background-color: #99d6ff;
+    background-color: var(--icon-background-color-1);
 }
 .clock {
-    background-color: #ffcc00;
+    background-color: var(--icon-background-color-2);
 }

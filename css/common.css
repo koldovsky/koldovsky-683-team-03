@@ -1,4 +1,17 @@
+@import url(https://fonts.google.com/specimen/Poppins?query=popp);
+
 *{
     margin: 0;
     padding: 0;
+}
+
+:root {
+
+    --accent-color: #FFF6ED;
+    --title-color: #040F73;
+    --highlight-logo-color:#FF962E;
+    --simple-text-color:#6A6E8F;
+
+
+
 }

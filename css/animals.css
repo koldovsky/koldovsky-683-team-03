@@ -6,16 +6,15 @@
     padding: 29px 25px;
 }
 .animals__card-img_wrapper .animals__card-img {
-    position: absolute;
     width: 26px;
-    top: calc(50% - 13px);
-    left: calc(50% - 13px); 
 }
 .animals__card-img_wrapper {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .animals__card-img_wrapper-cat {
     background-color: var(--icon-background-color-1);
@@ -55,5 +54,24 @@
     font-weight: 700;
     text-decoration: none;
     margin-top: 29px;
-    display: block;
+    display: flex;
+    max-width: 77px;
+    justify-content: space-between;
+}
+.animals__card-more span {
+    line-height: 24px;
+}
+.animals {
+    display:flex;
+    flex-direction: column;
+}
+@media screen and (min-width:991px) {
+    .animals {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .animals__card {
+        width: 242px;
+    }
 }

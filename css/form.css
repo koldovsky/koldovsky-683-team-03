@@ -1,12 +1,37 @@
 .contacts {
     background: white;
-    border-radius: 10px;
-    margin: 10px 15px;
+    margin: 0;
     padding: 29px 25px;
 }
 
 .contacts_question {
     font-family: "Rubik", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
+    font-weight: 700;
     color: var(--title-color)
+}
+.contactss_tel {
+    font-size: 17px;
+}
+.contacts_tel_phone {
+    color: var(--highlight-logo-color);
+
+}
+.contacts_tel_phone:hover {
+    text-decoration: underline;
+}
+.contacts_tel_record {
+    background-color: var(--highlight-logo-color);
+    margin-bottom: 20px;
+    color: white;
+}
+.contacts_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.contacts_tel_order_services {
+    background-color: var(--background-color);
+    color: var(--title-color);
 }

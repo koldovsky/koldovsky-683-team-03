@@ -1,5 +1,17 @@
 .feed {
-    border-radius: 10px;
-    margin: 10px 15px;
-    padding: 29px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feed__brand {
+    background-color: rgb(251, 241, 231);
+    border-radius: 35px;
+    padding: 20px 0;
+    width: 275px;
+}
+.feed__brand-img {
+    height: 90px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
 }

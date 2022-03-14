@@ -21,3 +21,10 @@
 body {
     background: var(--background-color);
 }
+.button {
+    border: none;
+    padding: 16px 28px;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: 700;
+}

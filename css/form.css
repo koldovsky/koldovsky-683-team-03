@@ -4,3 +4,9 @@
     margin: 10px 15px;
     padding: 29px 25px;
 }
+
+.contacts_question {
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    color: var(--title-color)
+}

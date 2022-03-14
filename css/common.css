@@ -15,7 +15,9 @@
     --icon-background-color-2:#FABF3E;
     --icon-background-color-3:#5BD6E2;
 
-    background: var(--background-color);
     padding: 24px;
     font-family: "Poppins", sans-serif;
+}
+body {
+    background: var(--background-color);
 }

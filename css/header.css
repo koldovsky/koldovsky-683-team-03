@@ -26,6 +26,12 @@
 .navbar-toggler {
     margin-left: auto;
 }
+.navbar {
+    width: 100%;
+}
+.navbar-collapse {
+    justify-content: space-between;
+}
 @media screen and (min-width:991px) {
     .header, .header__nav {
         flex-direction: row;

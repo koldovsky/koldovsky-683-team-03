@@ -28,3 +28,8 @@ body {
     border-radius: 30px;
     font-weight: 700;
 }
+@media screen and (min-width:991px) {
+    :root {
+        padding: 0 70px;
+    }
+}

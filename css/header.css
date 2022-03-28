@@ -1,43 +1,73 @@
-.header__logo a {
-    color: var(--highlight-logo-color);
-    font-style: italic;
-    text-decoration: none;
-    font-size: 17px;
+@import url(https://fonts.googleapis.com/css?family=Sofia);
+
+.header__logo {
+  color: var(--highlight-logo-color);
+  font-style: italic;
+  text-decoration: none;
+  font-family: "Sofia", sans-serif;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
 }
-.header__logo a:hover {
-    color: var(--title-color);
+.header__logo h1 {
+  display: none;
 }
+.header__logo img {
+  width: 64px;
+  height: 64px;
+}
+.header__logo:hover {
+  color: var(--title-color);
+}
+
 .header__social,
 .header__nav,
 .header__logo {
-    text-align: center;
+  text-align: center;
 }
 
 .header__nav-item {
-    text-decoration: none;
-    color: var(--title-color);
-    margin: 10px 0;
+  text-decoration: none;
+  color: var(--title-color);
+  margin: 10px 0;
 }
 
-.header, .header__nav {
-    display: flex;
-    flex-direction: column;
+.header,
+.header__nav {
+  display: flex;
+  flex-direction: column;
 }
 .navbar-toggler {
-    margin-left: auto;
+  margin-left: auto;
 }
 .navbar {
-    width: 100%;
+  width: 100%;
 }
 .navbar-collapse {
-    justify-content: space-between;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
 }
-@media screen and (min-width:991px) {
-    .header, .header__nav {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .header__nav {
-        min-width: 370px;
-    }
+@media screen and (min-width: 991px) {
+  .header,
+  .header__nav {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header__nav {
+    min-width: 370px;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .header__logo h1 {
+    display: block;
+    max-width: 115px;
+    margin: 0;
+    padding-left: 5px;
+    font-size: 25px;
+  }
+  .navbar-collapse {
+    flex-direction: row;
+  }
 }

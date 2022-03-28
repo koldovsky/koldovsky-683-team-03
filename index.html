@@ -5,6 +5,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <link rel="stylesheet" href="css/index.css">
     <meta charset="UTF-8">
@@ -24,9 +25,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar">
-                    <div class="header__logo">
-                        <a href="index.html">Ветеринарна Клініка</a>
-                    </div>
+                    <a class="header__logo" href="index.html">
+                        <img src="img/veterinary.png">
+                        <h1>Helthy Pets</h1>
+                    </a>
                     <nav class="header__nav">
                         <a class="header__nav-item" href="#">Про нас</a>
                         <a class="header__nav-item" href="#">Послуги</a>
@@ -57,62 +59,67 @@
             <span class="business_card_phone"><img src="icons/phone.svg" alt="phone">Подзвоніть нам</span>
         -->
         <!--Oleh's block start-->
-        <div class="animals">
-            <article class="animals__card">
-                <div class="animals__card-img_wrapper animals__card-img_wrapper-cat"><img class="animals__card-img"
-                        src="icons/cat.svg" alt="cat"></div>
-                <span class="animals__card-border"></span>
-                <h3 class="animals__card-title">Коти</h3>
-                <p class="animals__card-description">Ваш кіт замуркає у наших руках</p>
-                <a class="animals__card-more" href="#">
-                    <span>Більше</span>
-                    <img src="icons/arrow.svg" alt="arrow">
-                </a>
-            </article>
-            <article class="animals__card">
-                <div class="animals__card-img_wrapper animals__card-img_wrapper-dog"><img class="animals__card-img"
-                        src="icons/dog.svg" alt="dog"></div>
-                <span class="animals__card-border"></span>
-                <h3 class="animals__card-title">Собаки</h3>
-                <p class="animals__card-description">Ваш хвотатий друг не помітить процедури</p>
-                <a class="animals__card-more" href="#">
-                    <span>Більше</span>
-                    <img src="icons/arrow.svg" alt="arrow">
-                </a>
-            </article>
-            <article class="animals__card">
-                <div class="animals__card-img_wrapper animals__card-img_wrapper-rabbit"><img class="animals__card-img"
-                        src="icons/rabbit.svg" alt="rabbit"></div>
-                <span class="animals__card-border"></span>
-                <h3 class="animals__card-title">Кролики</h3>
-                <p class="animals__card-description">Ми доглянемо за вашим клубком шерсті</p>
-                <a class="animals__card-more" href="#">
-                    <span>Більше</span>
-                    <img src="icons/arrow.svg" alt="arrow">
-                </a>
-            </article>
-            <article class="animals__card">
-                <div class="animals__card-img_wrapper animals__card-img_wrapper-fish"><img class="animals__card-img"
-                        src="icons/fish.svg" alt="fish"></div>
-                <span class="animals__card-border"></span>
-                <h3 class="animals__card-title">Рибки</h3>
-                <p class="animals__card-description">Ваші мешканці акваріуму будуть щасливі</p>
-                <a class="animals__card-more" href="#">
-                    <span>Більше</span>
-                    <img src="icons/arrow.svg" alt="arrow">
-                </a>
-            </article>
-            <article class="animals__card">
-                <div class="animals__card-img_wrapper animals__card-img_wrapper-turtle"><img class="animals__card-img"
-                        src="icons/turtle.svg" alt="turtle"></div>
-                <span class="animals__card-border"></span>
-                <h3 class="animals__card-title">Черепашки</h3>
-                <p class="animals__card-description">Ваші холоднокровні улюбленці будуть здорові</p>
-                <a class="animals__card-more" href="#">
-                    <span>Більше</span>
-                    <img src="icons/arrow.svg" alt="arrow">
-                </a>
-            </article>
+        <div class="slider-holder">
+            <img class="slider-prev" src="icons/arrow-slider.svg" alt="arrow">
+            <div class="animals">
+                <article class="animals__card">
+                    <div class="animals__card-img_wrapper animals__card-img_wrapper-cat"><img class="animals__card-img"
+                            src="icons/cat.svg" alt="cat"></div>
+                    <span class="animals__card-border"></span>
+                    <h3 class="animals__card-title">Коти</h3>
+                    <p class="animals__card-description">Ваш кіт замуркає у наших руках</p>
+                    <a class="animals__card-more" href="#">
+                        <span>Більше</span>
+                        <img src="icons/arrow.svg" alt="arrow">
+                    </a>
+                </article>
+                <article class="animals__card">
+                    <div class="animals__card-img_wrapper animals__card-img_wrapper-dog"><img class="animals__card-img"
+                            src="icons/dog.svg" alt="dog"></div>
+                    <span class="animals__card-border"></span>
+                    <h3 class="animals__card-title">Собаки</h3>
+                    <p class="animals__card-description">Ваш хвотатий друг не помітить процедури</p>
+                    <a class="animals__card-more" href="#">
+                        <span>Більше</span>
+                        <img src="icons/arrow.svg" alt="arrow">
+                    </a>
+                </article>
+                <article class="animals__card">
+                    <div class="animals__card-img_wrapper animals__card-img_wrapper-rabbit"><img
+                            class="animals__card-img" src="icons/rabbit.svg" alt="rabbit"></div>
+                    <span class="animals__card-border"></span>
+                    <h3 class="animals__card-title">Кролики</h3>
+                    <p class="animals__card-description">Ми доглянемо за вашим клубком шерсті</p>
+                    <a class="animals__card-more" href="#">
+                        <span>Більше</span>
+                        <img src="icons/arrow.svg" alt="arrow">
+                    </a>
+                </article>
+                <article class="animals__card">
+                    <div class="animals__card-img_wrapper animals__card-img_wrapper-fish"><img class="animals__card-img"
+                            src="icons/fish.svg" alt="fish"></div>
+                    <span class="animals__card-border"></span>
+                    <h3 class="animals__card-title">Рибки</h3>
+                    <p class="animals__card-description">Ваші мешканці акваріуму будуть щасливі</p>
+                    <a class="animals__card-more" href="#">
+                        <span>Більше</span>
+                        <img src="icons/arrow.svg" alt="arrow">
+                    </a>
+                </article>
+                <article class="animals__card">
+                    <div class="animals__card-img_wrapper animals__card-img_wrapper-turtle"><img
+                            class="animals__card-img" src="icons/turtle.svg" alt="turtle"></div>
+                    <span class="animals__card-border"></span>
+                    <h3 class="animals__card-title">Черепашки</h3>
+                    <p class="animals__card-description">Ваші холоднокровні улюбленці будуть здорові</p>
+                    <a class="animals__card-more" href="#">
+                        <span>Більше</span>
+                        <img src="icons/arrow.svg" alt="arrow">
+                    </a>
+                </article>
+
+            </div>
+            <img class="slider-next" src="icons/arrow-slider.svg" alt="arrow">
         </div>
         <!--Oleh's block end-->
         <!--Ivan's block start-->
@@ -181,11 +188,12 @@
         <article class="contacts">
             <h2 class="contacts_question">Потрібно Запланувати Візит До Ветеринара Чи Грумера?</h2>
             <p class="contactss_tel">Подзвоніть нам
-            <span class="contacts_tel_phone">+ 1 (234) 567 89 00</span></p>
+                <span class="contacts_tel_phone">+ 1 (234) 567 89 00</span>
+            </p>
             <div class="contacts_buttons">
                 <button class="contacts_tel_record button">Наші контакти</button>
                 <button class="contacts_tel_order_services button">Замовити послуги</button>
-             </div>
+            </div>
         </article>
         <!--Andrij block end-->
 
@@ -245,6 +253,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="scripts/animal-carousel.js"></script>
 </body>
 
 </html>

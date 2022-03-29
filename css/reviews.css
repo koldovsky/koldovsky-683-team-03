@@ -19,3 +19,7 @@
     font-size: 17px;
     text-align: center;
 }  
+.reviews-h1:hover {
+    font-weight: bold;
+    color: yellow;
+}

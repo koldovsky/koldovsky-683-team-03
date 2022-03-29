@@ -1,0 +1,10 @@
+.health__info-button {
+    border: 1px solid transparent;
+    background-color: #ff5b2e;
+    color: white;
+    padding: 16px 28px;
+    border-radius: 25px;
+}
+.health__info-button:hover {
+    background-color: #040f73; 
+}

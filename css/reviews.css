@@ -1,0 +1,21 @@
+@import url(https://fonts.google.com/specimen/Rubik?query=rubik);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.reviews-h1, .health__info-h1 {
+    font-family: "Rubik", sans-serif;
+    color: var(--title-color);
+    font-size: 28px;
+    text-align: center;
+}
+.reviews-p, .health__info-h2 {
+    font-family: "Poppins", sans-serif;
+    color: var(--simple-text-color);
+    font-size: 19px;
+    text-align: center;  
+}
+.health__info-p {
+    font-family: "Poppins", sans-serif;
+    color: var(--simple-text-color);
+    font-size: 17px;
+    text-align: center;
+}  

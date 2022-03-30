@@ -25,3 +25,22 @@
         grid-template-columns: 1fr 1fr;
     }
 }
+@media (min-width: 768px) {   
+.reviews__contenier {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+@media (min-width: 950px) {   
+    .reviews__contenier {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+.reviews__parrot, .reviews__dog, .reviews__cat {
+    border: 1px solid transparent;
+    background-color: #ff5b2e;
+    color: white;
+    padding: 16px 28px;
+    border-radius: 25px;
+    }

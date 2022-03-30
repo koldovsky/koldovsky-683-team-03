@@ -68,11 +68,20 @@
     font-size: 19px;
     font-weight: bold;
     color: #040f73;
+    padding-top: 15px;
+    padding-bottom: 15px;
 } 
 .reviews__contenier h3 {
     font-size: 17px;
+    padding-top: 15px;
 } 
 .reviews__contenier p {
   color: #ff5b2e;
   font-size: 12px;
+}
+.reviews__line {
+    height: 3px;
+    width: 15%;
+    background-color: #ff5b2e;
+    margin: auto;
 }

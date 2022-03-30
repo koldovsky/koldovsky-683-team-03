@@ -17,9 +17,11 @@
     font-family: "Poppins", sans-serif;
     color: var(--simple-text-color);
     font-size: 17px;
-    text-align: center;
+    text-align: justify;
 }  
-.reviews-h1:hover {
-    font-weight: bold;
-    color: yellow;
+@media (min-width: 768px) {
+    .health__info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }

@@ -125,29 +125,60 @@
         <!--Ivan's block start-->
         <div class="health__info">
             <img class="health__info-img" src="img/dog-health.png" width="300" alt="dog">
-        <div class="health__info-text">
-        <h1 class="health__info-h1">Ми робимо Ваших улюбленців щасливими та здоровими</h1>
-        <h2 class="health__info-h2">Ми невелика фірма з 15 відданими працівниками, які надають усі види послуг з
-            лікування та догляду за
-            домашніми тваринами</h2>
-        <p class="health__info-p">Ми знаємо, як сильно ви обожнюєте свого вихованця і дбаєте про нього з усією нашою
-            увагою та любов'ю до
-            тварин.</p>
-        <p class="health__info-p">Наша спеціалізована команда ветеринарів, грумерів та інших спеціалістів надасть усі види послуг
-            та доглядатиме за вашим вихованцем. Ми знаходимо підхід до кожної тварини. Ви можете бути впевнені, що
-            ваш пухнастий член сім’ї залишиться здоровим і щасливим.</p>
-        <button class="health__info-button">Дізнатись більше </button>
+            <div class="health__info-text">
+                <h1 class="health__info-h1">Ми робимо Ваших улюбленців щасливими та здоровими</h1>
+                <h2 class="health__info-h2">Ми невелика фірма з 15 відданими працівниками, які надають усі види послуг з
+                    лікування та догляду за
+                    домашніми тваринами</h2>
+                <p class="health__info-p">Ми знаємо, як сильно ви обожнюєте свого вихованця і дбаєте про нього з усією
+                    нашою
+                    увагою та любов'ю до
+                    тварин.</p>
+                <p class="health__info-p">Наша спеціалізована команда ветеринарів, грумерів та інших спеціалістів
+                    надасть усі види послуг
+                    та доглядатиме за вашим вихованцем. Ми знаходимо підхід до кожної тварини. Ви можете бути впевнені,
+                    що
+                    ваш пухнастий член сім’ї залишиться здоровим і щасливим.</p>
+                <button class="health__info-button">Дізнатись більше </button>
+            </div>
         </div>
-        </div>
+
         <div class="reviews">
             <h1 class="reviews-h1">Наші клієнти про нас</h1>
             <p class="reviews-p">Якби домашні тварини вміли розмовляти, ось що вони б розповіли (за словами їх
                 власників)</p>
-            <div class="reviews__contenier">
-                <div class="reviews__parrot">
+                <!--music block start-->
+                <div class="music-container" id="music-container">
+                    <div class="music-info">
+                      <h4 id="title"></h4>
+                      <div class="progress-container" id="progress-container">
+                        <div class="progress" id="progress"></div>
+                      </div>
+                    </div>
+              
+                    <audio src="music/Cat-meowing-loudly-sound-effect.mp3" id="audio"></audio>
+              
+                    <div class="img-container">
+                      <img src="images/ukulele.jpg" alt="music-cover" id="cover" />
+                    </div>
+                    <div class="navigation">
+                      <button id="prev" class="action-btn">
+                        <i class="fas fa-backward"></i>
+                      </button>
+                      <button id="play" class="action-btn action-btn-big">
+                        <i class="fas fa-play"></i>
+                      </button>
+                      <button id="next" class="action-btn">
+                        <i class="fas fa-forward"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <!--music block end-->
+                <div class="reviews__contenier">
+                    <div class="reviews__parrot">
                     <img class="reviews__parrot-img" src="img/parrot-review.png" width="100" alt="parrot">
                     <h2>Джокі</h2>
-                    <div class ="reviews__line"></div>
+                    <div class="reviews__line"></div>
                     <h3>«Батьки переживали за моє здоров’я, бо я зовсім не хотіла їсти. Їм дуже допоміг ветеринар, який
                         пояснив особливості годування папуг, запропонував спеціальний план харчування. Смачно!»</h3>
                     <p>Жовтень 28, 2019</p>
@@ -155,7 +186,7 @@
                 <div class="reviews__dog">
                     <img class="reviews__dog-img" src="img/dog-review.png" width="100" alt="dog">
                     <h2>Аксель</h2>
-                    <div class ="reviews__line"></div>
+                    <div class="reviews__line"></div>
                     <h3>«Коли мама їздила за кордон, вона не могла взяти мене з собою. Отже, вона подзвонила, і Марія
                         взяла
                         мене до себе на 2 тижні. Марія мені дуже сподобалася»</h3>
@@ -164,7 +195,7 @@
                 <div class="reviews__cat">
                     <img class="reviews__cat-img" src="img/cat-review.png" width="100" alt="cat">
                     <h2>Майло</h2>
-                    <div class ="reviews__line"></div>
+                    <div class="reviews__line"></div>
                     <h3>«Мене дуже боліла лапка і мої батьки вирішили відвести мене до ветеринара. Там мене погладили,
                         заспокоїли і я навіть не помітила як вкололи укол. Тепер я можу знову бігати і веселитись»</h3>
                     <p>Грудень 12, 2021</p>
@@ -271,6 +302,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/animal-carousel.js"></script>
     <script src="js/contact-form.js"></script>
+    <script src="js/music-player.js"></script>
 </body>
 
 </html>

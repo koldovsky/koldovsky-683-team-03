@@ -257,7 +257,7 @@
             </div>
             <div class="answer-list">
                 <ul>
-                    <li>
+                    <li class="faq-content-block"> 
                         <img class="faq-image target" src="icons/target.svg" alt="target icon">
                         <p class="have-question-heading">Наша адреса</p>
                         <p class="have-question-content">
@@ -265,7 +265,7 @@
                             Львів, Львівська область
                         </p>
                     </li>
-                    <li>
+                    <li class="faq-content-block">
                         <img class="faq-image clock" src="icons/clock.svg" alt="clock icon">
                         <p class="have-question-heading">Робочі години</p>
                         <p class="have-question-content">
@@ -273,7 +273,7 @@
                             Неділя: 11:00 - 19:00
                         </p>
                     </li>
-                    <li>
+                    <li class="faq-content-block">
                         <img class="faq-image contact-phone" src="icons/contact-phone.svg" alt="phone icon">
                         <p class="have-question-heading">Наші контакти</p>
                         <p class="have-question-content">
@@ -286,12 +286,12 @@
         </div>
         <div class="form-block">
             <form action="https://formspree.io/f/xwkybyzw" class="contact-form" method="POST">
-                <input class="form-input" type="text" placeholder="Введіть повне ім'я"><br>
-                <input class="form-input" type="tel" placeholder="Введіть номер телефону"><br>
-                <input class="form-input" type="text" placeholder="Ім'я улюбленця і вік"><br>
-                <input class="form-input" type="text" placeholder="Послуга"><br>
-                <button class="form-input date" type="button">Виберіть дату</button><br>
-                <button class="form-button" type="submit">Відправити</button>
+                <input class="form-input" type="text" placeholder="Введіть повне ім'я" name="Your Name"><br>
+                <input class="form-input" type="tel" placeholder="Введіть номер телефону" name="phone"><br>
+                <input class="form-input" type="text" placeholder="Ім'я улюбленця і вік" name="Pets name"><br>
+                <input class="form-input" type="text" placeholder="Послуга" name="service"><br>
+                <button class="form-input date" type="button" name="choose date">Виберіть дату</button><br>
+                <button class="form-button" type="submit" name="submit">Відправити</button>
             </form>
             <div class="contact-form-status"></div>
         </div>

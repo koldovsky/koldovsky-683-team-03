@@ -14,14 +14,32 @@
 .clock {
     background-color: var(--icon-background-color-2);
 }
-
+.faq-content-block {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    
+}
+.faq-content-text {
+    display: flex;
+    flex-direction: column;
+}
 .have-question-heading {
     font-family: "Rubik", sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
-    color: var(--title-color)
+    color: var(--title-color);
 }
-
+.faq-link {
+    text-decoration: none;
+    color: #424875;
+    font-size: 17px;
+}
+.faq-link:hover {
+    text-decoration: underline;
+    color: #424875;
+}
 .have-question-content {
     color: #424875;
 }
+

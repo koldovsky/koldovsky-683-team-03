@@ -251,7 +251,7 @@
             <div class="have-question">
                 <p class="have-question-heading">Появилось питання?</p>
                 <p class="have-question-content">
-                    Потрібна консультація чи є запитання щодо наших послуг?
+                    Потрібна консультація чи є запитання щодо наших послуг?<br>
                     Зв'яжіться з нами будь-яким зручним способом.
                 </p>
             </div>
@@ -261,7 +261,7 @@
                         <img class="faq-image target" src="icons/target.svg" alt="target icon">
                         <p class="have-question-heading">Наша адреса</p>
                         <p class="have-question-content">
-                            площа Ринок, 1
+                            площа Ринок, 1<br>
                             Львів, Львівська область
                         </p>
                     </li>
@@ -269,28 +269,30 @@
                         <img class="faq-image clock" src="icons/clock.svg" alt="clock icon">
                         <p class="have-question-heading">Робочі години</p>
                         <p class="have-question-content">
-                            Понеділок - Субота: 11:00 - 21:00
+                            Понеділок - Субота: 11:00 - 21:00<br>
                             Неділя: 11:00 - 19:00
                         </p>
                     </li>
                     <li class="faq-content-block">
                         <img class="faq-image contact-phone" src="icons/contact-phone.svg" alt="phone icon">
-                        <p class="have-question-heading">Наші контакти</p>
-                        <p class="have-question-content">
-                            <a href="#">bestpet@email.com</a>
-                            <a href="#">+ 1 (234) 567 89 00</a>
-                        </p>
+                        <div class="faq-content-text">
+                            <p class="have-question-heading">Наші контакти</p>
+                            <p class="have-question-content">
+                                <a href="#" class="faq-link">bestpet@email.com</a><br>
+                                <a href="#" class="faq-link">+ 1 (234) 567 89 00</a>
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="form-block">
             <form action="https://formspree.io/f/xwkybyzw" class="contact-form" method="POST">
-                <input class="form-input" type="text" placeholder="Введіть повне ім'я" name="Your Name"><br>
-                <input class="form-input" type="tel" placeholder="Введіть номер телефону" name="phone"><br>
-                <input class="form-input" type="text" placeholder="Ім'я улюбленця і вік" name="Pets name"><br>
-                <input class="form-input" type="text" placeholder="Послуга" name="service"><br>
-                <button class="form-input date" type="button" name="choose date">Виберіть дату</button><br>
+                <input class="form-input" type="text" placeholder="Введіть повне ім'я" name="Your Name" required><br>
+                <input class="form-input" type="tel" placeholder="Введіть номер телефону" name="phone" required><br>
+                <input class="form-input" type="text" placeholder="Ім'я улюбленця і вік" name="Pets name" required><br>
+                <input class="form-input" type="text" placeholder="Послуга" name="service" required><br>
+                <input class="form-input date" type="date" placeholder="Виберіть дату" name="choose date" required><br>
                 <button class="form-button" type="submit" name="submit">Відправити</button>
             </form>
             <div class="contact-form-status"></div>

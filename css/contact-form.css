@@ -9,7 +9,8 @@
 
 .form-input {
     height: 50px;
-    width: 400px;
+    display: block;
+    width: 100%;
     margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -19,8 +20,9 @@
 }
 
 .form-button {
+    display: block;
     height: 50px;
-    width: 400px;
+    width: 100%;
     border: 1px;
     border-radius: 25px;
     background-color: var(--highlight-logo-color);

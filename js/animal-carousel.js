@@ -4,6 +4,6 @@ $('.animals').slick({
     variableWidth: true,
     swipe: true,
     swipeToSlide: true,
-    prevArrow: $('.slider-prev'),
-    nextArrow: $('.slider-next'),
+    prevArrow: $('.slider-holder .slider-prev'),
+    nextArrow: $('.slider-holder .slider-next'),
   });

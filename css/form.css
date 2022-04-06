@@ -1,7 +1,12 @@
+@import url(https://fonts.google.com/specimen/Rubik?query=rubik);
+@import url(https://fonts.google.com/specimen/Poppins?query=popp);
 .contacts {
     background: white;
     margin: 0;
-    padding: 29px 25px;
+    padding: 43px 35px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
 }
 
 .contacts_question {
@@ -12,12 +17,17 @@
 }
 .contactss_tel {
     font-size: 17px;
+    margin-top: 25px;
 }
 .contacts_tel_phone {
     color: var(--highlight-logo-color);
+    font-size: 19px;
+    font-weight: 500;
+    text-decoration: none;
 
 }
 .contacts_tel_phone:hover {
+    color: var(--highlight-logo-color);
     text-decoration: underline;
 }
 .contacts_tel_record {
@@ -26,12 +36,37 @@
     color: white;
 }
 .contacts_buttons {
+    margin: 35px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    max-width: 400px;
 }
 .contacts_tel_order_services {
     background-color: var(--background-color);
     color: var(--title-color);
+}
+@media screen and (min-width: 991px) {
+    .contacts_question {
+        max-width: 500px;
+        margin: auto;
+    }
+    .contacts{
+        padding: 50px 70px;
+    }
+    .contacts_buttons {
+        margin-top: 40px;
+        flex-direction: row;
+    }
+    .contacts_tel_record{
+        margin-bottom: 0;
+    }
+    .contacts_tel_record:hover {
+        background-color: var(--title-color);
+    }
+    .contacts_tel_order_services:hover{
+        background-color: #f0dfcd;
+    }
+
 }

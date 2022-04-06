@@ -1,13 +1,10 @@
-.feed {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .feed__brand {
     background-color: rgb(251, 241, 231);
     border-radius: 35px;
     padding: 20px 0;
     width: 275px;
+    margin: 0 25px;
 }
 .feed__brand-img {
     height: 90px;
@@ -15,3 +12,38 @@
     margin: auto;
     display: block;
 }
+
+.slider {
+    position: relative;
+    margin: 90px 0;
+  }
+  .slider .slider-prev {
+    width: 30px;
+    position: absolute;
+    left: -15px;
+    top: 50px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .slider .slider-next {
+    width: 30px;
+    position: absolute;
+    right: -15px;
+    top: 50px;
+    transform: rotate(270deg);
+    cursor: pointer;
+  }
+  @media screen and (min-width: 991px) {
+
+    .feed__brand {
+      width: 260px;
+    }
+    .slider .slider-prev {
+      left: -40px;
+    }
+    .slider .slider-next {
+      right: -40px;
+    }
+  }

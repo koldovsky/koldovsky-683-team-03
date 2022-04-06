@@ -64,4 +64,13 @@ ul {
     color: #424875; 
     margin-bottom: auto;
 }
-
+@media screen and (max-width: 900px) {
+    .faq-and-form{
+        display: block;
+    }
+    .faq-block {
+        display: flex;
+        align-items: center;
+        margin-bottom: -100px;
+    }
+}
